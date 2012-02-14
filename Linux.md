@@ -1,7 +1,17 @@
-Installing on Linux, Unix, etc.
--------------------------------
+Installing on Ubuntu or Debian
+------------------------------
+Users of Debian-based Linuxes testing and unstable can use the apt-get tool to
+install gitflow from the Debian repository:
 
-Under *nix, the easiest way to install git-flow is using Rick Osborne's
+    $ apt-get install git-flow
+
+For Debian stable, one can either use the git flow installer, or the Debian package
+from unstable (it works just fine on stable too).
+
+
+Other Linuxes
+-------------
+Under other Linuxes, the easiest way to install git-flow is using Rick Osborne's
 excellent git-flow installer, which can be run using the following command:
 
-	$ wget --no-check-certificate -q -O - https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | sudo bash
+    $ wget --no-check-certificate -q -O - https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | sudo bash

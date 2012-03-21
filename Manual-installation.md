@@ -14,6 +14,10 @@ where git-flow will be installed, simply specify it explicitly, using:
 
 	$ sudo make prefix=/opt/local install
 
+You can install it to your home directory (make sure `$HOME/bin` is in your `$PATH`):
+
+        $ make install prefix=$HOME
+
 Or simply point your `PATH` environment variable to your git-flow checkout
 directory.
 

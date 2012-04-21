@@ -1,6 +1,6 @@
 * **How to convert existing git repository to use git-flow?**  
 
-  ???
+  Run *git flow init* from the repository folder just like as you would do for new repository
 
 * **Can I still do manual branches and merges when I use git-flow?**  
   Of course you can. `git-flow` does not forbid you to keep using vanilla Git commands!

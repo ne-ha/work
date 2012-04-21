@@ -1,3 +1,7 @@
+* **How to convert existing git repository to use git-flow?**  
+
+  ???
+
 * **Can I still do manual branches and merges when I use git-flow?**  
   Of course you can. `git-flow` does not forbid you to keep using vanilla Git commands!
   

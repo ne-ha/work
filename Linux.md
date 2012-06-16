@@ -8,6 +8,11 @@ install gitflow from the Debian repository:
 For Debian stable, one can either use the git flow installer, or the Debian package
 from unstable (it works just fine on stable too).
 
+Installing on Archlinux
+------------------------------
+Users of Archlinux can use packer as a tool to get AUR packages.
+
+    $ packer -S gitflow-git
 
 Other Linuxes
 -------------

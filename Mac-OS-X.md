@@ -35,3 +35,10 @@ If you run into problems due to Xcode 4.2 upgrades & MacPorts 2.04 with the expa
     --->  Cleaning expat
 
     $ port install git-flow
+
+wget
+========
+
+Even using wget its a one line effort.
+
+    wget --no-check-certificate -q -O - https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | sudo bash

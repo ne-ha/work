@@ -1,5 +1,10 @@
 (version 0.4.1)
 
+## Initialize
+
+### git flow init
+Initialize a new git repo with support for the branching model.
+
 ## Feature
 
 ### git flow feature [list] [-v]

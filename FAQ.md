@@ -24,11 +24,13 @@
   misleading results, since `git-describe` scans the current commits linear
   history for the most recent tag it finds, which will always be the *previous*
   tag.
-  
+
+  If your project uses Maven, then [buildversion-plugin](https://github.com/code54/buildversion-plugin) may be your ticket.
+
   I will change this behaviour in the next version of the branching model
   explicitly and I will include this behavioural change in the first version of
   the Python rewrite.
-  
+
   For more references to this problem, see:
   
   - Issue [#49](http://github.com/nvie/gitflow/issues/49)
@@ -37,7 +39,8 @@
   	[discussions](http://groups.google.com/group/gitflow-users/browse\_thread/thread/19efac724bb6418a)
 	on the [git-flow-users](http://groups.google.com/group/gitflow-users)
 	mailinglist.
-  
+  - Explanation and more references at [buildversion-plugin's README](https://github.com/code54/buildversion-plugin#about-git-describe)
+
 * **Can I use it with Windows?**  
   There have been reports of Windows users using `git-flow`.
   <del>Un</del>fortunately, I have no Windows environment to test it on, but

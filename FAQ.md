@@ -47,5 +47,8 @@
   this [issue](http://github.com/nvie/gitflow/issues/issue/25) should be
   helpful in setting it up.
 
-* **Does it integrate with Gerrit?**
+* **How does it integrate with Gerrit?**  
   ?
+
+* **What is the 'support' branch?**  
+  ? (the 'support' branch is no in the screen cast)

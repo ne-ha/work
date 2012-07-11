@@ -46,4 +46,6 @@
   <del>Un</del>fortunately, I have no Windows environment to test it on, but
   this [issue](http://github.com/nvie/gitflow/issues/issue/25) should be
   helpful in setting it up.
-  
+
+* **Does it integrate with Gerrit?**
+  ?

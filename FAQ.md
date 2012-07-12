@@ -8,7 +8,7 @@
   So if you want to merge `master` into `develop` for whatever reason you want
   to, you can safely do so without breaking `git-flow` compatibility.  Do you
   want to manually merge a feature branch X into another feature branch Y?  Not
-  a problem.  As long as you do it conciously and realize what this means for
+  a problem.  As long as you do it consciously and realize what this means for
   finishing those branches later on.
   
 * **Why does git-describe not work for me?**  
@@ -51,4 +51,4 @@
   ?
 
 * **What is the 'support' branch?**  
-  It's an experimental feature that is currently being worked on. When you try using it you'll get warnings telling you not to use it in production. It is essentially allows you to fork master, but once it's forked it stays forked. It has been speculated (on the blog) that this is if you have a client that has a very specific request which you wouldn't every want to use outside of that one client's version of the project. I imagine we will hear more about it when it's ready.
+  It's an experimental feature that is currently being worked on. When you try using it you'll get warnings telling you not to use it in production. It essentially allows you to fork master, but once it's forked it stays forked. It has been speculated (on the blog) that this is if you have a client that has a very specific request which you wouldn't every want to use outside of that one client's version of the project. I imagine we will hear more about it when it's ready.

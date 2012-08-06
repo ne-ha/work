@@ -35,3 +35,18 @@ run it with "Full Administrator" rights if you installed msysgit with its
 installer):
 
 	C:\gitflow> contrib\msysgit-install.cmd
+
+### GitHub for Windows ###
+
+GitHub for Windows uses a portable installation of MSysGit for its shell. You'll need to follow the above instructions for MSysGit, except for two differences, both of which rely on the install location for GHfW's MSysGit install location. To find that location:
+
+Navigate to the GitHub directory under the OS's "Local Application Data" directory. On Windows 7, it is located at: "C:\Users\USER_NAME\AppData\Local\GitHub".
+Look for a directory named something similar to "PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7". Note: the GUID at the end may change.
+
+Once you have the location, use it to perform the following (refer to the above MSysGet instructions above for more details):
+
+Copy `getopt.exe` and `getopt.exe` to the `bin` directory directly under the location found above. In Windows 7, you would copy the files to: "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin".
+
+Run the `msysgit-install` script with the location as a parameter. For example:
+
+	C:\gitflow> contrib\msysgit-install.cmd "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c..."

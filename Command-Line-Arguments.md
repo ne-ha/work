@@ -3,13 +3,16 @@
 ## Initialize
 
 ### git flow init [-fd]
-Initialize a new git repo with support for the branching model.
 **-d** use default branch names
+
 **-f** force
+
+Initialize a new git repo with support for the branching model.
 
 ## Feature
 
 ### git flow feature [list] [-v]
+
 **-v** verbose (more) output
 
 Lists existing features

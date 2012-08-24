@@ -42,3 +42,11 @@ wget
 Even using wget its a one line effort.
 
     wget --no-check-certificate -q -O - https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | sudo bash
+
+curl
+========
+
+wget: command not found?  curl is only two.  (Note that URL is where the above URL currently redirects.)
+
+    curl https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh > gitflow-installer.sh
+    sudo bash gitflow-installer.sh

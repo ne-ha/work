@@ -45,7 +45,7 @@ Look for a directory named something similar to "PortableGit_8810fd5c2c79c73adcc
 
 Once you have the location, use it to perform the following (refer to the above MSysGet instructions above for more details):
 
-Copy `getopt.exe` and `getopt.exe` to the `bin` directory directly under the location found above. In Windows 7, you would copy the files to: "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin".
+Copy `getopt.exe` and `libintl3.dll` to the `bin` directory directly under the location found above. In Windows 7, you would copy the files to: "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin".
 
 Run the `msysgit-install` script with the location as a parameter. For example:
 

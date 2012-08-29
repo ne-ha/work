@@ -32,7 +32,7 @@ Clone the git-flow sources from GitHub:
 
 Run the `msysgit-install` script from a command-line prompt (you may have to
 run it with "Full Administrator" rights if you installed msysgit with its
-installer):
+installer, and ensure you're running from a Windows command prompt, not MINGW):
 
 	C:\gitflow> contrib\msysgit-install.cmd
 

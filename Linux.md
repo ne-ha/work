@@ -14,6 +14,14 @@ Users of Archlinux can use packer as a tool to get AUR packages.
 
     $ packer -S gitflow-git
 
+Installing on Fedora
+------------------------------
+Users of Fedora can use yum as a tool to get RPM packages.
+
+    $ yum install gitflow
+
+Ps.: Tested on Fedora 17.
+
 Other Linuxes
 -------------
 Under other Linuxes, the easiest way to install git-flow is using Rick Osborne's

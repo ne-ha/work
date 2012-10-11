@@ -32,7 +32,7 @@ If you run into problems due to Xcode 4.2 upgrades & MacPorts 2.04 with the expa
     --->  Attempting to fetch expat-2.1.0_0.darwin_11.x86_64.tbz2.rmd160 from http://packages.macports.org/expat
     --->  Installing expat @2.1.0_0
     --->  Activating expat @2.1.0_0
-    --->  Cleaning expat
+    --->  Cleaning expat 
 
     $ port install git-flow
 

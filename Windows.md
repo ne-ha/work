@@ -1,11 +1,9 @@
-Installing on Windows
----------------------
+#Installing on Windows#
 
 For Windows users, [msysgit](http://code.google.com/p/msysgit/) is a good
 starting place for installing git.
 
-Cygwin
-======
+##Cygwin##
 
 For Windows users who wish to use the automated install, it is suggested that you install [Cygwin](http://www.cygwin.com/)
 first to install tools like `git`, `util-linux` and `wget` (with those three being packages that can be selected
@@ -20,8 +18,7 @@ If you get the error "flags: FATAL unable to determine getopt version" error aft
 you need to install the `util-linux` package using the Cygwin setup.
 
 
-MSysGit
-=======
+##MSysGit##
 
 Download and install `getopt.exe` from the [util-linux package](http://gnuwin32.sourceforge.net/packages/util-linux-ng.htm) into `C:\Program Files\Git\bin`. (Only `getopt.exe`, the others util-linux files are not used). Also install `libintl3.dll` from the Dependencies package, into the same directory. 
 
@@ -36,7 +33,7 @@ installer, and ensure you're running from a Windows command prompt, not MINGW):
 
 	C:\gitflow> contrib\msysgit-install.cmd
 
-### GitHub for Windows ###
+##GitHub for Windows##
 
 GitHub for Windows uses a portable installation of MSysGit for its shell. You'll need to follow the above instructions for MSysGit, except for two differences, both of which rely on the install location for GHfW's MSysGit install location. To find that location:
 

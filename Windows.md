@@ -47,6 +47,23 @@ Once you have the location, use it to perform the following (refer to the above 
 
 Copy `getopt.exe` and `libintl3.dll` to the `bin` directory directly under the location found above. In Windows 7, you would copy the files to: "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin".
 
+Open GitHub for Windows Git Shell and check that you are in the GitHub root directory e.g. C:\GitHub>
+Clone the GitFlow folder with 
+
+	C:\GitHub> git clone --recursive git://github.com/nvie/gitflow.git
+
+This will clone the gitflow code into a new gitflow folder in your GitHub directory. You can select a different location if you prefer or you can remove the gitflow clone later.
+
+Change to the GitFlow directory
+
+	C:\GitHub> cd gitflow
+
 Run the `msysgit-install` script with the location as a parameter. For example:
 
-	C:\gitflow> contrib\msysgit-install.cmd "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c..."
+	C:\GitHub\gitflow [develop]> contrib\msysgit-install.cmd "C:\Users\USER_NAME\AppData\Local\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7"
+
+Note: Replace PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7 with the name of your directory; you do not need the \bin at the end.
+
+Check that GitFlow is installed by calling the help:
+
+	C:\GitHub> git flow help 

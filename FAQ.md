@@ -45,7 +45,7 @@
   There have been reports of Windows users using `git-flow`.
   <del>Un</del>fortunately, I have no Windows environment to test it on, but
   this [issue](http://github.com/nvie/gitflow/issues/issue/25) should be
-  helpful in setting it up.
+  helpful in setting it up. And see this [FAQ page](https://github.com/nvie/gitflow/wiki/Windows) for Windows installation instructions. 
 
 * **How does it integrate with Gerrit?**  
   ?

@@ -33,6 +33,10 @@ installer, and ensure you're running from a Windows command prompt, not MINGW):
 
 	C:\gitflow> contrib\msysgit-install.cmd
 
+In Git bash create a symbolic link for git-flow
+
+	$ ln -s /C/gitflow/git-flow git-flow
+
 ##GitHub for Windows##
 
 GitHub for Windows uses a portable installation of MSysGit for its shell. You'll need to follow the above instructions for MSysGit, except for two differences, both of which rely on the install location for GHfW's MSysGit install location. To find that location:

@@ -33,7 +33,7 @@ installer, and ensure you're running from a Windows command prompt, not MINGW):
 
 	C:\gitflow> contrib\msysgit-install.cmd
 
-In Git bash create a symbolic link for git-flow
+In Git bash create a symbolic link for git-flow so that you can actually use the `$ git flow` command from any location.
 
 	$ ln -s /C/gitflow/git-flow git-flow
 

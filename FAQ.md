@@ -48,7 +48,7 @@
   helpful in setting it up. And see this [FAQ page](https://github.com/nvie/gitflow/wiki/Windows) for Windows installation instructions. 
 
 * **How does it integrate with Gerrit?**  
-  ?
+  Git flow is not aware of [gerrit](http://code.google.com/p/gerrit/), but since by default all its operations are on the local repository, it is perfectly safe to use with gerrit.  You need to create the "develop" branch physically in gerrit (it has a UI for branch management), and all team members need to have permission in gerrit to push tags and also to create and delete branches if they want to share work on features and releases.  The only awkward thing is that `git flow finish release X` results in a tagged commit on master that has no gerrit change id.  It's easy to fix: just `git commit --amend` and then push it to gerrit as normal - the commit should be empty, so it doesn't require a review, but gerrit has to have it with its proper change id.  Also beware of tools (e.g. [git review](http://pypi.python.org/pypi/git-review)) that want to rebase automatically before pushing to gerrit - it's fine for normal development work, but switch that off before pushing merged releases.
 
 * **What is the 'support' branch?**  
   It's an experimental feature that is currently being worked on. When you try using it you'll get warnings telling you not to use it in production. It essentially allows you to fork master, but once it's forked it stays forked. It has been speculated (on the blog) that this is if you have a client that has a very specific request which you wouldn't every want to use outside of that one client's version of the project. I imagine we will hear more about it when it's ready.

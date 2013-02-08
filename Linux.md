@@ -12,7 +12,7 @@ Installing on Archlinux
 ------------------------------
 Users of Archlinux can use packer as a tool to get AUR packages.
 
-    $ packer -S gitflow-git
+    $ pacman -S gitflow-git
 
 Installing on Fedora
 ------------------------------

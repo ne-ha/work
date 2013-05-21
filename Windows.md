@@ -20,7 +20,7 @@ you need to install the `util-linux` package using the Cygwin setup.
 
 ##MSysGit##
 
-Download and install `getopt.exe` from the [util-linux package](http://gnuwin32.sourceforge.net/packages/util-linux-ng.htm) into `C:\Program Files\Git\bin`. (Only `getopt.exe`, the others util-linux files are not used). Also install `libintl3.dll` from the Dependencies package, into the same directory. 
+Download and install `getopt.exe` from the [util-linux package](http://gnuwin32.sourceforge.net/packages/util-linux-ng.htm) into `C:\Program Files\Git\bin`. (Only `getopt.exe`, the others util-linux files are not used). Also install `libintl3.dll` from the [Dependencies package](http://gnuwin32.sourceforge.net/packages/libintl.htm), into the same directory. 
 
 Clone the git-flow sources from GitHub:
 

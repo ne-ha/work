@@ -46,7 +46,7 @@ Even using wget its a one line effort.
 curl
 ========
 
-wget: command not found?  curl is only three.  (Note that URL is where the above URL currently redirects.)
+wget: command not found?  curl is only two lines.
 
-    curl https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh > gitflow-installer.sh
+    curl -L -O https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh
     sudo bash gitflow-installer.sh

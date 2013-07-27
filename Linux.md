@@ -20,7 +20,7 @@ Users of Fedora can use yum as a tool to get RPM packages.
 
     $ yum install gitflow
 
-Ps.: Tested on Fedora 17 and 18.
+Ps.: Tested on Fedora 17, 18 and 19.
 
 Other Linuxes
 -------------

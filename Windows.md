@@ -19,8 +19,8 @@ you need to install the `util-linux` package using the Cygwin setup.
 
 If you get something like "$'\r': command not found" then it's a problem with your line endings.  You should run the following:
 
-        $  sed -i 's/\n\r/\n/mg' /usr/local/bin/git-flow*
-        $  sed -i 's/\n\r/\n/mg' /usr/local/bin/gitflow-*
+	$  sed -i 's/\n\r/\n/mg' /usr/local/bin/git-flow*
+	$  sed -i 's/\n\r/\n/mg' /usr/local/bin/gitflow-*
 
 ##MSysGit##
 

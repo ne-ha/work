@@ -48,5 +48,5 @@ curl
 
 wget: command not found?  curl is only two lines.
 
-    curl -L -O https://github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
+    curl -L -O https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
     sudo bash gitflow-installer.sh

@@ -1,6 +1,6 @@
 This may be the future home of all documentation around git-flow.
 
- * [[Installation]] Instructions
+ * [[Installation Instructions]]
  * [[Command Line Arguments]]
  * [[FAQ]]
  * [[Cheatsheets]]

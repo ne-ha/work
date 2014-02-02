@@ -22,17 +22,12 @@ Lists existing features
 
 Start new feature _\<name>_, optionally basing it on _\<base>_ instead of _\<develop>_
 
-### git flow feature finish [-rFkDS] \<name|nameprefix>
-**-F** fetch from $ORIGIN before performing finish
-
+### git flow feature finish [-rFk] \<name|nameprefix>
 **-r** rebase instead of merge
 
+**-F** fetch from $ORIGIN before performing finish
+
 **-k** keep branch after performing finish
-
-**-D** force delete feature branch after finish
-
-**-S** squash feature during merge
-
 
 Finish feature _\<name>_
 

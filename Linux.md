@@ -22,6 +22,15 @@ Users of Fedora can use yum as a tool to get RPM packages.
 
 Ps.: Tested on Fedora 17, 18 and 19.
 
+Installing on openSUSE
+----------------------
+Users of openSUSE can use `zypper` as a tool to get the RPM packages.
+
+    $ zypper ar http://download.opensuse.org/repositories/devel:/tools:/scm/openSUSE_13.1/ devel:tools:scm
+    $ zypper in git-flow
+
+For versions other than 13.1 the URL to the devel:tools:scm repository needs to be adjusted.
+
 Other Linuxes
 -------------
 Under other Linuxes, the easiest way to install git-flow is using Rick Osborne's

@@ -34,14 +34,14 @@ For versions other than 13.1 the URL to the devel:tools:scm repository needs to 
 Other Linuxes
 -------------
 Under other Linuxes, the easiest way to install git-flow is using Rick Osborne's
-excellent git-flow installer, which can be run using the following command for system-wide installation:
-
-    $ wget --no-check-certificate -q -O - https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh | sudo bash
-
-For user installation, for example in ```~/bin```,
+excellent git-flow installer, which can perform system-wide installation like so:
 
     $ curl -O https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
-    $ chmod u+x gitflow-installer.sh
+    $ chmod +x gitflow-installer.sh
+    $ sudo ./gitflow-installer.sh
+
+For user installation, for example in ```~/bin``` :
+
     $ INSTALL_PREFIX=~/bin ./gitflow-installer.sh
 
 And if the installation directory (here, ```~/bin```) is in the user's path, git will find the git-flow extensions.

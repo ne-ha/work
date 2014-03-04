@@ -1,4 +1,5 @@
 #Installing on Windows#
+This page outlines the installation of the gitflow scripts on the three major distributions of git. Please follow the directions for your git distribution.
 
 For Windows users, [msysgit](http://code.google.com/p/msysgit/) is a good
 starting place for installing git.

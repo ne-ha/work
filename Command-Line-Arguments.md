@@ -136,3 +136,10 @@ Start new support branch named _\<version>_ based on _\<base>_
 A remote repo different from _origin_ can be specified in the config file:
 
 `$ git config gitflow.origin myorigin`
+
+### Default to fetching before local operations
+If you always want to fetch from $ORIGIN before certain operations, for example before starting a feature:
+
+`$ git config gitflow.feature.start.fetch true`
+
+This can still be overridden on the command line by supplying the **--nofetch** argument.

@@ -36,7 +36,7 @@ Other Linuxes
 Under other Linuxes, the easiest way to install git-flow is using Rick Osborne's
 excellent git-flow installer, which can perform system-wide installation like so:
 
-    $ curl -O https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
+    $ curl -OL https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
     $ chmod +x gitflow-installer.sh
     $ sudo ./gitflow-installer.sh
 

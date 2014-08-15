@@ -51,7 +51,7 @@ Look for a directory named something similar to "PortableGit_8810fd5c2c79c73adcc
 
 Once you have the location, use it to perform the following (refer to the above MSysGet instructions above for more details):
 
-Copy `getopt.exe` and `libintl3.dll` to the `bin` directory directly under the location found above. In Windows 7, you would copy the files to: `"%LOCALAPPDATA%\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin"`.
+Copy `getopt.exe`, `libintl3.dll` and `libiconv2.dll` to the `bin` directory directly under the location found above. In Windows 7, you would copy the files to: `"%LOCALAPPDATA%\GitHub\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\bin"`.
 
 Open the GitHub for Windows Git Shell and check that you are in the GitHub root directory e.g. `C:\GitHub>`
 Clone the GitFlow folder with 

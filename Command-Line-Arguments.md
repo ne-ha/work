@@ -28,7 +28,7 @@ Start new feature _\<name>_, optionally basing it on _\<base>_ instead of _\<dev
 **-F** fetch from $ORIGIN before performing finish
 
 **-k** keep branch after performing finish
-
+**-S** squash all feature commits into one before performing finish
 Finish feature _\<name>_
 
 ### git flow feature publish \<name>

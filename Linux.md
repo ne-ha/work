@@ -39,6 +39,8 @@ excellent git-flow installer, which can perform system-wide installation like so
     $ curl -OL https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
     $ chmod +x gitflow-installer.sh
     $ sudo ./gitflow-installer.sh
+Hi,body:
+   There is a mistake in script  gitflow-installer.sh,the url of gitflow is https://github.com/nvie/gitflow.git ,not http://github.com/nvie/gitflow.git
 
 For user installation, for example in ```~/bin``` :
 
